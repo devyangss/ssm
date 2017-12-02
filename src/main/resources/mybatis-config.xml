@@ -11,10 +11,4 @@
     <!-- 开启驼峰命名转换:Table{create_time} -> Entity{createTime} -->
     <setting name="mapUnderscoreToCamelCase" value="true"/>
   </settings>
-  <!-- 类型别名配置 -->
-  <typeAliases>
-    <typeAlias type="org.ssm.entity.Student" alias="Student"/>
-    <typeAlias type="org.ssm.dao.StudentDao" alias="StudentDao"/>
-  </typeAliases>
-
 </configuration>
